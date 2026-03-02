@@ -1,0 +1,279 @@
+[
+	{
+		"offset": -12,
+		"keys": [ "y", "utc-12", "gmt-12", "bit", "idlw" ],
+		"timezone": "Y",
+		"dst": ""
+	},
+	{
+		"offset": -11,
+		"keys": [ "x", "utc-11", "gmt-11", "nut" ],
+		"timezone": "X"
+	},
+	{
+		"keys": [ "sdt", "sst", "samoa" ],
+		"timezone": "X",
+		"dst": "US & Canada"
+	},
+	{
+		"offset": -10,
+		"keys": [ "w", "utc-10", "gmt-10", "ckt", "taht" ],
+		"timezone": "W"
+	},
+	{
+		"keys": [ "hdt", "hst", "hawaii" ],
+		"timezone": "W",
+		"dst": ""
+	},
+	{
+		"offset": -9,
+		"keys": [ "v", "utc-9", "gmt-9", "git" ],
+		"timezone": "V"
+	},
+	{
+		"keys": [ "akdt", "akst", "alaska", "anchorage" ],
+		"timezone": "V",
+		"dst": "US & Canada"
+	},
+	{
+		"offset": -8,
+		"keys": [ "u", "utc-8", "gmt-8", "cist" ],
+		"timezone": "U"
+	},
+	{
+		"keys": [ "tijuana" ],
+		"timezone": "U",
+		"dst": "Mexico"
+	},
+	{
+		"keys": [ "pdt", "pst", "pacific", "us pacific", "los angeles", "vancouver" ],
+		"timezone": "U",
+		"dst": "US & Canada"
+	},
+	{
+		"offset": -7,
+		"keys": [ "t", "utc-7", "gmt-7" ],
+		"timezone": "T"
+	},
+	{
+		"keys": [ "ciudad juárez", "ciudad juarez", "juárez", "juarez" ],
+		"timezone": "T",
+		"dst": "Mexico"
+	},
+	{
+		"keys": [ "mdt", "mst", "mountain", "us mountain", "denver", "edmonton" ],
+		"timezone": "T",
+		"dst": "US & Canada"
+	},
+	{
+		"offset": -6,
+		"keys": [ "s", "utc-6", "gmt-6", "galt", "guatemala city", "tegucigalpa", "san josé", "san jose", "san salvador" ],
+		"timezone": "S"
+	},
+	{
+		"keys": [ "easst", "east" ],
+		"timezone": "S",
+		"dst": "Chile"
+	},
+	{
+		"keys": [ "mexico city" ],
+		"timezone": "S",
+		"dst": "Mexico"
+	},
+	{
+		"keys": [ "cdt", "cst", "central", "us central", "chicago", "winnipeg" ],
+		"timezone": "S",
+		"dst": "US & Canada"
+	},
+	{
+		"offset": -5,
+		"keys": [ "r", "utc-5", "gmt-5", "act", "cot", "ect", "pet", "lima", "bogotá", "bogota", "kingston", "quito" ],
+		"timezone": "R"
+	},
+	{
+		"keys": [ "cuba", "havana" ],
+		"timezone": "R",
+		"dst": "Cuba"
+	},
+	{
+		"keys": [ "edt", "est", "eastern", "us eastern", "new york", "toronto" ],
+		"timezone": "R",
+		"dst": "US & Canada"
+	},
+	{
+		"offset": -4,
+		"keys": [ "q", "utc-4", "gmt-4", "amt", "bot", "fkt", "gyt", "vet", "santo domingo", "manaus", "caracas", "la paz" ],
+		"timezone": "Q"
+	},
+	{
+		"keys": [ "clst", "clt", "santiago" ],
+		"timezone": "Q",
+		"dst": "Chile"
+	},
+	{
+		"keys": [ "pyst", "pyt" ],
+		"timezone": "Q",
+		"dst": "Paraguay"
+	},
+	{
+		"keys": [ "halifax" ],
+		"timezone": "Q",
+		"dst": "US & Canada"
+	},
+	{
+		"offset": -3,
+		"keys": [ "p", "utc-3", "gmt-3", "adt", "amst", "art", "brt", "fkst", "gft", "rott", "uyt", "são paulo", "sao paulo", "buenos aires", "montevideo" ],
+		"timezone": "P"
+	},
+	{
+		"offset": -3,
+		"keys": [ "pmdt", "pmst" ],
+		"timezone": "EU"
+	},
+	{
+		"offset": -2,
+		"keys": [ "o", "utc-2", "gmt-2", "brst", "fnt" ],
+		"timezone": "O"
+	},
+	{
+		"offset": -1,
+		"keys": [ "n", "utc-1", "gmt-1", "azot", "cvt" ],
+		"timezone": "N"
+	},
+	{
+		"offset": -1,
+		"keys": [ "egst", "egt" ],
+		"timezone": "N",
+		"dst": "EU"
+	},
+	{
+		"offset": 0,
+		"keys": [ "z", "utc+0", "gmt+0", "utc", "zulu", "gmt", "azost", "abidjan", "accra", "dakar" ],
+		"timezone": "Z"
+	},
+	{
+		"offset": 0,
+		"keys": [ "bst", "west", "wet", "london", "dublin", "lisbon" ],
+		"timezone": "Z",
+		"dst": "EU"
+	},
+	{
+		"offset": 1,
+		"keys": [ "a", "utc+1", "gmt+1", "dft", "wat", "lagos", "kinshasa", "algiers", "casablanca" ],
+		"timezone": "A"
+	},
+	{
+		"keys": [ "cet", "cest", "met", "mest", "berlin", "madrid", "paris", "rome", "warsaw" ],
+		"timezone": "A",
+		"dst": "EU"
+	},
+	{
+		"offset": 2,
+		"keys": [ "b", "utc+2", "gmt+2", "cat", "haec", "kalt", "sast", "wast", "cairo", "johannesburg", "khartoum", "kyiv" ],
+		"timezone": "B"
+	},
+	{
+		"keys": [ "eest", "eet", "athens", "bucharest", "sofia" ],
+		"timezone": "B",
+		"dst": "EU"
+	},
+	{
+		"keys": [ "israel", "jerusalem" ],
+		"timezone": "B",
+		"dst": "Israel"
+	},
+	{
+		"offset": 3,
+		"keys": [ "c", "utc+3", "gmt+3", "eat", "fet", "iot", "msk", "syot", "trt", "addis ababa", "baghdad", "doha", "moscow", "riyadh" ],
+		"timezone": "C"
+	},
+	{
+		"offset": 3,
+		"keys": [ "irst", "iran" ],
+		"timezone": "C",
+		"dst": "+:30 (India, Iran, Myanmar, Sri Lanka)"
+	},
+	{
+		"keys": [ "istanbul", "turkey" ],
+		"timezone": "C",
+		"dst": "EU"
+	},
+	{
+		"offset": 4,
+		"keys": [ "d", "utc+4", "gmt+4", "azt", "get", "gst", "mut", "ret", "samt", "sct", "volt", "baku", "dubai", "samara", "tbilisi", "yerevan" ],
+		"timezone": "D"
+	},
+	{
+		"offset": 5,
+		"keys": [ "e", "utc+5", "gmt+5", "aqtt", "hmt", "mawt", "mvt", "orat", "pkt", "tft", "tjt", "tmt", "uzt", "yekt", "karachi", "tashkent", "yekaterinburg" ],
+		"timezone": "E"
+	},
+	{
+		"offset": 5,
+		"keys": [ "ist", "india", "sri lanka" ],
+		"timezone":  "E",
+		"dst": "+:30 (India, Iran, Myanmar, Sri Lanka)"
+	},
+	{
+		"offset": 5,
+		"keys": [ "npt", "nepal" ],
+		"timezone":  "E",
+		"dst": "+:45 (Nepal)"
+	},
+	{
+		"offset": 6,
+		"keys": [ "f", "utc+6", "gmt+6", "almt", "biot", "btt", "kgt", "omst", "vost", "dhaka", "almaty", "omsk", "urumqi", "xinjiang" ],
+		"timezone": "F"
+	},
+	{
+		"offset": 6,
+		"keys": [ "mmt", "myanmar" ],
+		"timezone": "F",
+		"dst": "+:30 (India, Iran, Myanmar, Sri Lanka)"
+	},
+	{
+		"offset": 7,
+		"keys": [ "g", "utc+7", "gmt+7", "cxt", "davt", "hovt", "ict", "krat", "novt", "tha", "wib", "bangkok", "ho chi minh city", "jakarta", "krasnoyarsk" ],
+		"timezone": "G"
+	},
+	{
+		"offset": 8,
+		"keys": [ "h", "utc+8", "gmt+8", "bjt", "bnt", "chot", "hkt", "irkt", "myt", "pht", "phst", "sgt", "ulat", "beijing", "china", "hong kong", "irkutsk", "kuala lumpur", "makassar", "manila", "shanghai", "singapore", "taipei" ],
+		"timezone": "H"
+	},
+	{
+		"keys": [ "awst", "wst", "perth", "western australia" ],
+		"timezone": "H",
+		"dst": "Australia"
+	},
+	{
+		"offset": 9,
+		"keys": [ "i", "utc+9", "gmt+9", "chost", "jst", "kst", "pwt", "tlt", "wit", "yakt", "ambon", "chita", "pyongyang", "seoul", "tokyo" ],
+		"timezone": "I"
+	},
+	{
+		"offset": 10,
+		"keys": [ "k", "utc+10", "gmt+10", "chut", "ddut", "pgt", "vlat", "port moresby", "vladivostok" ],
+		"timezone": "K"
+	},
+	{
+		"keys": [ "aedt", "aest", "sydney", "eastern australia" ],
+		"timezone": "K",
+		"dst": "Australia"
+	},
+	{
+		"offset": 11,
+		"keys": [ "l", "utc+11", "gmt+11", "kost", "lhst", "mist", "nct", "nft", "pont", "sakt", "sbt", "nouméa", "noumea" ],
+		"timezone": "L"
+	},
+	{
+		"offset": 12,
+		"keys": [ "m", "utc+12", "gmt+12", "anat", "fjt", "gilt", "magt", "mht", "pett", "tvt", "vut", "wakt", "suva", "petropavlovsk", "petropavlovsk-kamchatsky" ],
+		"timezone": "M"
+	},
+	{
+		"keys": [ "nzdt", "nzst", "nzt", "wakt", "auckland", "new zealand" ],
+		"timezone": "M",
+		"dst": "New Zealand"
+	}
+]
