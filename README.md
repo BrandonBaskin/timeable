@@ -1,4 +1,4 @@
-## Timely-style Time Converter Bot
+## Timeable Discord Bot
 
 This is a Python Discord bot inspired by [`timely-bot`](https://github.com/TheBobbyLlama/timely-bot) that converts times in chat messages into Discord timestamps so everyone sees them in their local time.
 
