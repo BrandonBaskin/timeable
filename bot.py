@@ -46,11 +46,11 @@ async def on_ready() -> None:
     await bot.change_presence(activity=discord.Game(name="Converting times"))
 
 
-@bot.tree.command(name="timely", description="Set your timezone for time conversion.")
+@bot.tree.command(name="timeable", description="Set your timezone for time conversion.")
 @app_commands.describe(
     timezone="Your timezone, e.g. 'PST', 'London', 'UTC+2', or a code from the list."
 )
-async def timely_command(interaction: discord.Interaction, timezone: str) -> None:
+async def timeable_command(interaction: discord.Interaction, timezone: str) -> None:
     """
     Slash command to let a user set their preferred timezone.
     """

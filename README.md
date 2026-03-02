@@ -20,7 +20,7 @@ When it finds matching times, it replies with lines like:
 
 - **Flexible time formats**: 12-hour, 24-hour, and compact times with or without AM/PM.
 - **Loose wrappers**: Accepts bare times, quoted times, and times prefixed with `*` (Markdown italics).
-- **Per-user timezone**: Users set their timezone once with `/timely`, and bare times will be interpreted in their local zone.
+- **Per-user timezone**: Users set their timezone once with `/timeable`, and bare times will be interpreted in their local zone.
 - **Explicit zones**: Suffixes like `PST`, `London`, `Tokyo`, or `Vancouver` are mapped via `timezone_overrides.json`.
 
 ---
@@ -73,7 +73,7 @@ When it finds matching times, it replies with lines like:
   Use the slash command in any server where the bot is present:
 
   ```text
-  /timely timezone: "PST"
+  /timeable timezone: "PST"
   ```
 
   You can pass things like:
