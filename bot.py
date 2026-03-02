@@ -54,9 +54,14 @@ async def timely_command(interaction: discord.Interaction, timezone: str) -> Non
     """
     Slash command to let a user set their preferred timezone.
     """
+    # Immediately acknowledge so Discord doesn't time out the interaction.
+    # We'll send the real result via followup.
+    if not interaction.response.is_done():
+        await interaction.response.defer(ephemeral=True, thinking=True)
+
     tz_code = resolve_timezone_choice(timezone)
     if tz_code is None:
-        await interaction.response.send_message(
+        await interaction.followup.send(
             "I couldn't recognize that timezone. "
             "Try something like `PST`, `EST`, `London`, `Tokyo`, or `UTC+2`.",
             ephemeral=True,
@@ -64,10 +69,31 @@ async def timely_command(interaction: discord.Interaction, timezone: str) -> Non
         return
 
     set_user_timezone(interaction.user.id, tz_code)
-    await interaction.response.send_message(
-        f"Your timezone has been set. I will now convert bare times from your local time.",
+    await interaction.followup.send(
+        "Your timezone has been set. I will now convert bare times from your local time.",
         ephemeral=True,
     )
+
+
+@bot.tree.error
+async def on_app_command_error(
+    interaction: discord.Interaction, error: app_commands.AppCommandError
+) -> None:
+    logger.exception("App command error: %s", error)
+    try:
+        if interaction.response.is_done():
+            await interaction.followup.send(
+                f"An error occurred while handling that command: `{error}`",
+                ephemeral=True,
+            )
+        else:
+            await interaction.response.send_message(
+                f"An error occurred while handling that command: `{error}`",
+                ephemeral=True,
+            )
+    except discord.HTTPException:
+        # If even the error response fails, just swallow.
+        pass
 
 
 @bot.event
